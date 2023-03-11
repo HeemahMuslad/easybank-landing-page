@@ -6,6 +6,7 @@
 }
 a {
   text-decoration: none;
+ transition: all 0.3s ease-in-out;
 }
 body {
   overflow-x: hidden;
@@ -37,6 +38,9 @@ nav {
 .navLinks a {
   color: hsl(233, 8%, 62%);
 }
+.navLinks a:hover {
+  color: black;
+}
 .link {
   transition: 0.7s ease;
 }
@@ -67,7 +71,6 @@ button {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 /* Section1 */
@@ -161,6 +164,12 @@ button {
 .images img {
   width: 100%;
 }
+.images a{
+  color: black;
+}
+.images a:hover{
+  color: hsl(136, 65%, 51%);
+}
 .image {
   float: left;
   width: 250px;
@@ -201,6 +210,9 @@ button {
 .footerSection a {
   color: hsl(0, 0%, 100%);
 }
+.footerSection a:hover{
+  color: hsl(136, 65%, 51%);
+}
 .footerSection img {
   filter: brightness(20);
 }
@@ -224,11 +236,10 @@ button {
   background-color: hsl(0, 0%, 100%);
   padding: 2px 3px;
 }
-.icon #youtube {
-  color: black;
-  background-color: hsl(0, 0%, 100%);
-  padding: 2px 3px;
+.icon #fb:hover {
+  background-color: hsl(136, 65%, 51%);
 }
+
 
 .aboutUs {
   display: flex;
