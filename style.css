@@ -289,10 +289,7 @@ button {
     transform: translateX(-35%);
   }
 
-  .background {
-    width: 100%;
-    right: -200px;
-  }
+
 
   button {
     display: none;
