@@ -335,7 +335,7 @@ button {
   }
   .section3 {
     align-items: center;
-    padding: 10%;
+    padding: 10px;
   }
   .pictures {
     display: flex;
