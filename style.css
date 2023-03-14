@@ -82,9 +82,7 @@ button {
   padding-left: 70px;
   margin: 0;
 }
-.section1 > img {
-  width: 100%;
-}
+
 .mockUp {
   width: 60%;
 }
@@ -206,7 +204,7 @@ button {
   width: 100%;
   color: hsl(0, 0%, 100%);
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .footerSection a {
   color: hsl(0, 0%, 100%);
@@ -254,10 +252,13 @@ button {
 
 @media (max-width: 900px) {
   body {
-    overflow-x: hidden !important;
+    background-image: url(./images/bg-intro-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   .hamburger {
     display: block;
+    margin-left: 50px;
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -269,6 +270,9 @@ button {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  nav {
+    padding: 10px 20px;
+  }
   .navLinks {
     position: fixed;
     right: -100%;
@@ -276,7 +280,7 @@ button {
     gap: 0;
     flex-direction: column;
     background-color: hsl(0, 0%, 98%);
-    width: 60%;
+    width: 70%;
     text-align: center;
     transition: 1s;
   }
@@ -288,7 +292,7 @@ button {
   .navLinks.active {
     right: 0;
     top: 65px;
-    transform: translateX(-35%);
+    transform: translateX(-23%);
   }
   .background {
     display: none;
@@ -300,12 +304,12 @@ button {
   .section1 {
     display: flex;
     flex-direction: column-reverse;
-    padding: 10%;
-
+    padding: 10px;
   }
   .section1 img {
     right: 0;
     top: 0;
+    margin-bottom: 30px;
   }
   .section1 .next {
     width: 100%;
@@ -313,10 +317,9 @@ button {
     margin-bottom: 50px;
     align-items: center;
     justify-content: center;
-    
-  } 
-  .section2{
-    padding: 10%;
+  }
+  .section2 {
+    padding: 10px;
   }
   .item1 {
     text-align: center;
@@ -344,7 +347,7 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 10%;
+    padding: 50px 10px;
   }
   .logo {
     justify-content: center;
