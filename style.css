@@ -6,7 +6,7 @@
 }
 a {
   text-decoration: none;
- transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 body {
   overflow-x: hidden;
@@ -164,10 +164,10 @@ button {
 .images img {
   width: 100%;
 }
-.images a{
+.images a {
   color: black;
 }
-.images a:hover{
+.images a:hover {
   color: hsl(136, 65%, 51%);
 }
 .image {
@@ -211,7 +211,7 @@ button {
 .footerSection a {
   color: hsl(0, 0%, 100%);
 }
-.footerSection a:hover{
+.footerSection a:hover {
   color: hsl(136, 65%, 51%);
 }
 .footerSection img {
@@ -241,7 +241,6 @@ button {
   background-color: hsl(136, 65%, 51%);
 }
 
-
 .aboutUs {
   display: flex;
   flex-direction: column;
@@ -254,8 +253,8 @@ button {
 }
 
 @media (max-width: 900px) {
-  body{
-    overflow-x:  hidden !important;
+  body {
+    overflow-x: hidden !important;
   }
   .hamburger {
     display: block;
@@ -291,8 +290,9 @@ button {
     top: 65px;
     transform: translateX(-35%);
   }
-
-
+  .background {
+    display: none;
+  }
 
   button {
     display: none;
@@ -300,17 +300,23 @@ button {
   .section1 {
     display: flex;
     flex-direction: column-reverse;
+    padding: 10%;
+
   }
   .section1 img {
     right: 0;
     top: 0;
   }
   .section1 .next {
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin-bottom: 50px;
     align-items: center;
     justify-content: center;
+    
+  } 
+  .section2{
+    padding: 10%;
   }
   .item1 {
     text-align: center;
@@ -326,6 +332,7 @@ button {
   }
   .section3 {
     align-items: center;
+    padding: 10%;
   }
   .pictures {
     display: flex;
@@ -337,6 +344,7 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 10%;
   }
   .logo {
     justify-content: center;
